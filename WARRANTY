@@ -1,0 +1,24 @@
+This is ALPHA software.
+While the contributors are proud of their engineering,
+and have made every possible effort to produce reliable, useful software,
+it is not practical for them to make any guarantees of correctness
+without further testing.
+
+As such, like other GPL3-licensed software,
+this program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Bug reports - especially reproduceable ones - will be gratefully received at jonathanccast AT fastmail.fm,
+where they will be used to improve the quality of future releases of the software,
+
+It is the intentions of the contributors to eventually make a proper release with a warranty.
+HOWEVER: if you received this software free of charge, without paying anything to the contributors,
+please be aware that it does come with a full money-back guarantee,
+and if it breaks, you get to keep both pieces.
+
+In releases for which the maintainers can provide a warranty,
+this file will be updated with instructions on how to send money to the contributors,
+entering into an actual contractual relationship with them,
+and obtaining a guarantee of suitability for purpose, bug fixes / security patches,
+and indemnity against losses caused by appropriate operation of the software.

@@ -1,0 +1,77 @@
+The contributors to this software do not take pull requests.
+The pull-request mechanism has become a way for users of free software
+to ask that maintainers perform additional uncompensated labor for them,
+and the code review mechanism has become a way for programmers
+to deny each other their natural right to write software in the way they choose,
+and even the basic dignity they are owed as human beings.
+
+You have the absolute right, under the GPL, to make such changes as you want
+to your copy of this software.
+You should have received source code to this software, as well as git metadata,
+with your copy;
+if not, please inform both the distributor from whom you received your copy
+and jonathanccast AT fastmail.fm,
+that they are in violation of the GPL.
+
+Checking your local changes into git will allow you to keep them
+while merging in future versions of this software.
+
+If you do make changes, and you intend to continue merging in future versions,
+it is strongly recommended that you pull from upstream at least daily.
+If your upstream does not publish daily updates,
+it is strongly recommended that you pull from the original authors of the software at least daily.
+This will minimize your maintenance burden.
+Eventually, the source distribution will include automated scripts for performing such merges.
+
+If you feel that your changes will be useful to other people,
+you have the right to publish your changes as a git repository;
+you can publish changes to GitHub, GitLab, or your own server,
+according to your own technology choice preferences.
+
+Before publishing your changes,
+please carefully review the COPYRIGHT, WARRANTY, and CONTRIBUTING files,
+to ensure that they include your copyright notice (along with the other contributors)
+and accurately reflect your personal intentions.
+
+If you do publish your changes, you can - but do not have to -
+notify jonathanccast AT fastmail.fm that you have done so,
+so other users can be notified of the existence of your improvements.
+You can expect positive feedback when you do so;
+you may also receive constructive feedback on your changes.
+While the contributors reserve the absolute right to freedom of speech and conscience -
+as do you -
+the contributors to this software will make every effort to give only constructive feedback to you,
+which honors your dignity as a human being and as a programmer.
+However, please bear in mind that the contributors are socially awkward, semi-autistic geeks,
+and try to grant grace to poor social skills while they extend the same courtesy to you.
+
+If your improvements are of sufficient quality,
+the existing maintainers will begin pulling daily from your repo,
+both to get them and to ease the maintenance burden on both of you.
+
+To minimize the maintenance burden on everyone,
+please avoid publishing broken code
+- in particular, please avoid publishing code which does not compile,
+or which has failing tests.
+Changes that break tests may be pulled and reverted - which may result in you pulling the reversion.
+
+At the same time, to minimize the maintenance burden on everyone,
+if you do publish your repository, please do push to it at least daily.
+
+There are techniques that allow you to push changes to master multiple times per day
+without breaking code.
+You can mark tests for new features as TODO,
+so you can monitor your progress without needing failing tests.
+When changing internal APIs, you can version the API,
+writing the new API first,
+then changing the code to use it,
+then removing the old API once all code using it has been removed for a period of time.
+You need to do that when changing external APIs anyway -
+and in a shared development environment, *all* APIs are external.
+Similarly, while you usually don't need to - and shouldn't - rewrite large areas of code,
+if you do, you can keep both the old code and the new code in the repo
+until you're ready to change over.
+That way, anything using the old code can keep working until the new code is ready.
+
+Having said that, please try to check in tests for new code as soon as possible after you write it,
+so other programmers can avoid breaking what you're doing as much as possible.
