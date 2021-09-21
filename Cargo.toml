@@ -4,4 +4,4 @@ version = "0.0.1"
 authors = ["Jonathan Cast <jonathanccast@fastmail.fm>"]
 
 [dependencies]
-x11 = "2.18.1"
+xcb = "0.10"
