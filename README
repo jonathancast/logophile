@@ -1,6 +1,6 @@
 This is Logophile.
 
-One day, this is going to be a text editor for Unix.
+One day, this is going to be a graphical shell for Unix.
 
 Right now, there's nothing to see here.
 Go check out
@@ -12,12 +12,11 @@ to see our inspirations.
 (We aware that is an . . . eclectic . . . set of inspirations).
 
 Logophile is free software; you are free to use and modify it under certain conditions.
-See the file GPL3 for details.
+See the file PSL.md for details.
 
-One day, Logophile will come with a warranty - if you pay for it - but not right now.
+One day, Logophile will come with a warranty, but not right now.
 See the file WARRANTY for details.
 
-If you want to help out, considering sending $5 to https://paypal.me/jonathanccast,
-or see the file CONTRIBUTING to find out how to help with the programming.
+If you want to help out, see the file CONTRIBUTING to find out how to help with the programming.
 Once there is code here, feel free to check it out and see if it works for you;
 if not - and you think it's intended to - send bug reports to jonathanccast AT fastmail.fm.

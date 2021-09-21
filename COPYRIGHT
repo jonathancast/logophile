@@ -1,22 +1,7 @@
-Copyright © 2019 by Jonathan Cast
+Copyright © 2021 by Jonathan Cast
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+This software is free as in freedom, not in price;
+you may modify or redistribute it, if you pay a small distribution fee, under the terms of the Profitable Software License, version 0.3,
+or any later version published by jonathan Cast <jonathanccast@fastmail.fm>.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the file WARRANTY for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-Please note that the GNU General Public License requires
-all redistributions of this software
-to include the "preferred form of the work for making modifications to it",
-or to be accompanied by an opportunity to obtain such form.
-For the purposes of this software, the "preferred form" of this software
-for making modifications shall be held to include the git version control metadata
-and revision history, or an equivalent.
+See the files PSL, DISTRIBUTIONFEE, and CONTRIBUTORS for details.
